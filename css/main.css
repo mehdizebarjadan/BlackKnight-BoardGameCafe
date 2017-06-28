@@ -1,0 +1,297 @@
+body{
+	margin: 0 auto;
+}
+nav {
+	text-align: center;
+	width: 100%;
+	position: fixed;
+	background-color: #811622;
+	/*height:68px;*/
+}
+nav ul{
+	/*padding: 10px 10% 10px 10%;*/
+}
+
+nav li {
+	display: inline;
+	font-family: "Avenir";
+	font-weight: lighter;
+	font-size: 1.250em;
+	text-transform: lowercase;
+	padding: 0px 20px 0 20px;
+}
+a {
+	text-decoration: none;
+	color:#f5c7cc;
+}
+#home {
+	background-color: #811622;
+	height: 720px;
+}
+#home img{
+	width: 34%;
+	padding: 10% 32% 0% 34%; 
+}
+/*#place{
+	margin-left:38%;
+}*/
+
+#fill {
+	padding-left: 32%;
+	padding-top: 5%;
+}
+
+#fill h1{
+	font-family: "Avenir";
+	text-align: center;
+	display: inline-block;
+	font-size: 2.5em;
+
+}
+#place{
+	font-weight: lighter;
+}
+
+#game {
+	text-transform: uppercase;
+	color: red;
+	font-weight: bold;
+}
+
+/*h1 {
+	font-family: "Charter";
+	font-size: 30px;
+	color:#f5c7cc;
+	margin-top:0;
+	margin-bottom:0;
+	display:inline;*/
+	/*text-transform: uppercase;*/
+}
+/*footer {
+	width: 100%;
+	height: 50px;
+	background-color: #431517;
+}*/
+/*#fill {
+	background-color: #811622;
+	height:30px;
+}*/
+#content1 {
+	/*background-image: url("img/cups.jpg");*/
+	height:500px;
+	font-family: "Avenir";
+}
+.btn {
+	background-color: #871a1a;
+	/*border-radius: 9px;*/
+	/*border: 0px solid transparent;*/
+	color: white;
+	cursor: pointer;
+	/*float:left;*/
+	font-family: "Avenir";
+	font-size: 1.5em;
+	/*margin-top:40px;
+	margin-left:30%;
+	margin-right:39%;
+	margin-bottom:40px;
+	padding-left:3%;*/
+	margin: 0 auto;
+	padding-right:3%;
+	text-align: center;
+	vertical-align: middle;
+	text-transform: uppercase;
+	padding-left: 2%;
+}
+
+#clickme {
+	/*clear: both;*/
+	margin: auto 0;
+	display: block; 
+}
+#clickme p{
+	/*padding-left:30%;*/
+	/*width:60%;*/
+	font-size: 20px;
+	font-family: "Avenir";
+	color:#811622;
+	font-weight: bold;
+}
+#leftcol {
+	width:40%;
+	float:left;
+	padding-left: 10%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	font-size: 1em;
+}
+
+#leftcol h1{
+	font-family: "Avenir";
+}
+#leftcol p{
+	padding-left:30%;
+	width:65%;
+	font-size: 20px;
+	font-family: "Avenir";
+}
+
+#leftcol table {
+	font-size: 1.2em;
+}
+#rightcol {
+	width:50%;
+	float:right;
+	padding-bottom: 5%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	font-family: "Avenir";
+
+
+}
+
+#rightcol p{
+	font-size: 1.2em;
+}
+#rightcol h1{
+	color:black;
+	/*padding-left:10%; */
+	font-family: "Avenir";
+	margin-top:20px;
+	padding-bottom: 4%;
+}
+#hours{
+	padding-left:10%;
+	margin-top:40px;
+	width:70%;
+	font-size: 20px;
+	font-family: "Avenir";
+}
+
+
+
+/*-----FOOTER--*/
+
+footer {
+	width: 100%;
+	height:180px;
+	padding-top:10px;
+ 	text-align: center;
+	background-color: #431517;
+	clear: both;
+}
+
+.f-left li {
+	display: inline;
+	font-family: "Avenir";
+	font-weight: lighter;
+	font-size: 1em;
+	text-transform: lowercase;
+	padding: 0px 0px 0 20px;
+    color:white;
+}
+
+.f-menu li a {
+color: #f5c7cc;
+text-decoration:none;
+}
+
+.f-menu {
+    list-style: none;
+    margin: 0;
+    padding-top: 1%;
+   
+}
+
+.f-menu li {
+    display:inline;
+    padding: 0 1px 0 15px;
+    position: relative;
+   
+}
+
+.f-menu li:first-child {
+    padding-left: 0;
+}
+
+/*.f-menu li:before {
+    background: #3b4d2e;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    display: block;
+    content: "";
+    height: 5px;
+    position: absolute;
+    left: 0;
+    top: 6px;
+    width: 5px;
+}
+
+}*/
+
+.f-menu li:first-child:before {
+    display: none;
+}
+
+.f-menu .cur a {
+    color: #fff;
+}
+
+#social {
+	padding-top: 2%;
+	margin: 0 auto;
+}
+/*.social {
+    list-style: none;
+    margin: 0;
+    padding: 5px 0 0;
+}
+
+.social li {
+    float: left;
+    margin: 0 0 0 10px;
+    padding: 0;
+    text-align: center;
+}
+
+.social li a {
+    background: #a7db95;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    border-radius:100%;
+    color: #fff;
+    display: block;
+    height: 44px;
+    width: 44px;
+}
+
+.social .fa {
+    font-size: 20px;
+    line-height: 44px;
+}
+
+
+
+.social .fb a {
+    background: #38538f;
+}
+
+.social .mail a {
+    background: #509a59;
+}
+*/
+.copy {
+	
+    padding-top: 2%;
+    color: #f5c7cc;
+    font-family: "Avenir";
+    font-size: 0.7em;
+    font-weight: lighter;
+    margin: 0 auto;
+
+}
+.copy a{
+	color: #f5c7cc;
+}
+
+/* END Footer */

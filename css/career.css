@@ -1,0 +1,193 @@
+﻿body {
+	margin: auto 0;
+	background-color: #ffffff;
+	height: auto;
+   
+}
+
+/* ------MAIN NAVIGATION */
+
+nav {
+	text-align: center;
+	width: 100%;
+	position: fixed;
+	background-color: #ffffff;
+	padding: 0;
+    z-index:1;
+	/*height:68px;*/
+}
+nav ul{
+	padding: 0px;
+}
+
+nav li {
+	display: inline;
+	font-family: "Avenir";
+	font-weight: lighter;
+	font-size: 1.250em;
+	text-transform: lowercase;
+	padding: 0px 20px 0 20px;
+}
+#main a {
+	text-decoration: none;
+	color:#871a1a;
+}
+
+nav img {
+	width: 6%;
+	float:left;
+	padding: 1% 5%;
+	height: 5%;
+}
+#spacer {
+    height: 140px;
+    width: 100%;
+}
+
+
+/* ------MAIN CONTENT END */
+
+
+/* ------MAIN CONTENT */
+#main {
+width:100%;
+}
+
+#left {
+margin-left:15%;
+float:left;
+width:25%;
+padding-right:7%;
+margin-top: 3%;
+}
+
+#left p {
+color:#373534;
+font-family: "Avenir";
+}
+
+#left h1 {
+color:#871a1a;
+padding-bottom: 10px; 
+}
+
+#accordion {
+float:left;
+width:35%;
+margin-top:5%;
+}
+
+#accordion div {
+border: 1px solid #e2e2e2;
+padding:15px;
+color:#373534;
+}
+
+#accordion h2 {
+background: #871a1a;
+font-family: "Avenir";
+font-weight: lighter;
+color: white;
+font-size: 1em;
+padding: 5px 10px;
+}
+
+#accordion h2:focus {
+outline: none;
+}
+
+#accordion img {
+padding-right:5px;
+}
+
+#bottom {
+float: right;
+margin-right: 15%; 
+clear:both;
+padding: 2%;
+width: 36%;
+color:#373534;
+font-family: "Avenir";
+}
+
+#accordion p{
+    font-family: "Avenir";
+}
+
+#accordion ul{
+    font-family: "Avenir";
+}
+/*-----MAIN FOOTER ENDS HERE--*/
+
+
+/*-----FOOTER--*/
+
+footer {
+    width: 100%;
+    height:180px;
+    padding-top:10px;
+    text-align: center;
+    background-color: #431517;
+    clear: both;
+}
+
+.f-left li {
+    display: inline;
+    font-family: "Avenir";
+    font-weight: lighter;
+    font-size: 1em;
+    text-transform: lowercase;
+    padding: 0px 0px 0 20px;
+    color:white;
+}
+
+.f-menu li a {
+color: #f5c7cc;
+text-decoration:none;
+}
+
+.f-menu {
+    list-style: none;
+    margin: 0;
+    padding-top: 1%;
+   
+}
+
+.f-menu li {
+    display:inline;
+    padding: 0 1px 0 15px;
+    position: relative;
+   
+}
+
+.f-menu li:first-child {
+    padding-left: 0;
+}
+f-menu li:first-child:before {
+    display: none;
+}
+
+.f-menu .cur a {
+    color: #fff;
+}
+
+#social {
+    padding-top: 2%;
+    margin: 0 auto;
+}
+.copy {
+    
+    padding-top: 2%;
+    color: #f5c7cc;
+    font-family: "Avenir";
+    font-size: 0.7em;
+    font-weight: lighter;
+    margin: 0 auto;
+
+}
+.copy a{
+    color: #f5c7cc;
+    text-decoration: none;
+}
+
+/* END Footer */

@@ -1,0 +1,233 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="css/giftCard.css">
+<script type="text/javascript" src="js/giftCard.js"></script> 
+<title>Forms</title>
+</head>
+
+<body>
+	<div id="wrapper">
+<nav>
+	<a href="main.html"><img src="img/logoblack.png" alt="logo"/></a>
+			<ul>
+				<li><a href="about.html">About Us</a></li>
+                <li><a href="form.html">Contact us</a></li>
+                <li><a href="giftCard.html">Gift Cards</a></li>
+                <li><a href="maps.html">Locations</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="event.html">Events</a></li>
+                <li><a href="careers.html">Careers</a></li>
+                <li><a href="specialMenu.html">Specials</a></li>
+                <li><a href="contest.html">Contests</a></li>
+			</ul>
+		</nav>
+
+<!--Left Div including some explaination-->
+<div id="col-left">
+<h1>Gift Card</h1>
+<p>Sending a electronic gift voucher (e-voucher) is quick and easy. Vouchers can be used to pay all or part of a bill they're valid for 12 months from the date of purchase.
+
+The recipient will receive an email almost immediately and after they follow the quick step to activate, their e-voucher will be emailed to them straightaway. So they're perfect for a last minute gift!
+
+The voucher can be printed off and presented at the restaurant, or shown on a mobile phone as means of payment. </p>
+</div><!--end col left-->
+
+
+
+<!--Gift card form include two parts consist of including voucher details and Recipient details-->
+<form id="giftForm">
+<!--<fieldset>-->
+
+    <legend>Voucher details</legend>
+
+    <div id="vo_detID">
+        <div id="leftVoDe" class="leftVo">
+            <p><label id="volbl" for="SelectVoucherValue">* Select Voucher Value</label>
+            <br />		
+		    <select id="SelectVoucherValue">
+		      <option value="0">select amount ...</option>
+		      <option value="20">$20</option>
+		      <option value="30">$30</option>
+              <option value="40">$40</option>
+		      <option value="50">$50</option>
+		      <option value="60">$60</option>
+              <option value="70">$70</option>
+		      <option value="80">$80</option>
+		      <option value="90">$90</option>
+              <option value="100">$100</option>
+		    </select>
+	    </p>        
+        </div>
+        <div id="middleVoDe" class="middleVo">
+            <p>OR</p>
+        </div>
+        <div id="rightVoDe" class="rightVo">
+             <p><label id="vovalbl" for="VoucherValue">* Enter Voucher Value</label>
+            <br />
+		    <input type="text" id="VoucherValue" name="VoucherValue" /></p>
+        </div>
+        <div id="buttomVoDe" class="buttomVo">
+             <p><label for="message">Message</label>
+        <br />
+        <textarea id="message" name="message">Message...</textarea>
+        </div>
+    </div>
+	
+		
+   
+        
+   
+    
+<!--</fieldset>-->
+<!--USER INFORMATION-->
+	<!--<fieldset>-->
+		<legend>Recipient details</legend>
+		<div class="leftVo">
+            <!-- NAME -->
+		    <p><label id="name" for="formFirstName">* First Name</label>
+            <br />
+		    <input type="text" id="formFirstName" name="formFirstName" /></p>
+		</div>
+        <div class="rightVo">
+            <!-- SURNAME -->
+		    <p><label id="lname" for="formSurName">* Surname</label>
+            <br />
+		    <input type="text" id="formSurName" name="formSurName" /></p>
+        </div>
+        <div class="buttomVo">
+             <!-- EMAIL -->
+		    <p><label id="emailadd" for="Email">* Email Address:</label>
+            <br />
+		    <input type="text" id="Email" name="Email" />&nbsp;&nbsp;(e.g. user@yahoo.com)</p>
+        
+            <!-- COUNTRY CODE -->
+            <p><label for="CountryCode">Country Code:</label>
+            <br />		
+		    <select id="CountryCode">
+		      <option value="1">United States(+1)</option>
+              <option value="01">Canada(+1)</option>
+		      <option value="34">Spain(+34)</option>
+		      <option value="81">Japan(+81)</option>
+		      <option value="98">Iran(+98)</option>
+		    </select>
+		    </p>	
+		
+		    <!-- MOBILE NUMBER -->
+		    <p><label for="mobileNumber">Mobile Number:</label>
+            <br />
+		    <input type="text" id="mobileNumber" name="mobileNumber" />&nbsp;&nbsp;(e.g. 6477729540)</p>
+        </div>      
+		
+		
+	<!--</fieldset>-->
+    <div id ="btn1"><input type="submit" id="SubBtn1" value="NEXT" name="submit" /></div>
+</form>
+
+
+<!--second form including paying details-->
+<form id="payForm">
+<!--Credit Card Information-->
+    <!--<fieldset>-->
+		<legend>Paying details</legend>
+
+        <div id="img1">
+            <img id="masterImg" src="img/master.png" />
+            <input type="radio" name="paycard" value="1" id="masterID" checked />
+            <img id="visaImg" src="img/visa.png" />            
+            <input type="radio" name="paycard" value="2" id="visaID" />
+        </div>
+
+		
+        
+		<div id="clear1" class="clearboth"></div>
+        <div id="CardInfo">
+            <!-- Credit card number -->
+		    <p><label id="card" for="formCardNumber">* Card Number</label>
+            <br />
+		    <input type="text" id="formCardNumber" name="formCardNumber" />&nbsp;&nbsp;(Your card number should be 16 digit)</p>
+        
+            <!-- cvv number -->
+		    <p><label id="cvv" for="formCvvNumber">* CVV</label>
+            <br />
+		    <input type="text" id="formCvvNumber" name="formCvvNumber" />&nbsp;&nbsp;(Your card number should be 3 digit)</p>
+        
+            <!-- expire date -->
+		    <p><label id="expdate">* Expire Date</label></p>
+            
+		    <div class="input-block">
+                        <select id="month">
+                            <option value="0" >Month</option>
+                            <option>January</option>
+                            <option>Februery</option>
+                            <option>March</option>
+                            <option>April</option>
+                            <option>May</option>
+                            <option>June</option>
+                            <option>July</option>
+                            <option>August</option>
+                            <option>September</option>
+                            <option>Octobor</option>
+                            <option>Novomber</option>
+                            <option>December</option>
+                        </select>
+
+                        <select id="year">
+                            <option value="0" >YEAR</option>
+                            <option>2014</option>
+                            <option>2015</option>
+                            <option>2016</option>
+                            <option>2017</option>
+                            <option>2018</option>
+                        </select>
+                    </div>
+		</div> <!--End of CardInfo DIV-->
+		
+	<!--</fieldset>-->
+ 
+<!-- SUBMIT -->
+ <div id ="btn2"><input type="submit" value="Submit" name="submit" /></div>
+</form>
+
+
+
+<form id="EndForm">
+    <!--<fieldset>-->
+		<legend>Thank you!</legend>
+
+        
+		    <p><label>Dear Sir/Madam You paid successfully. <br /> 
+    Wow! We appreciate the chance to serve you. Thanks for not only
+becoming a customer, but also for becoming a member of Black Knight board game cafe.</label></p>
+            
+		
+	<!--</fieldset>-->
+
+</form>
+<!--footer part-->
+  <footer>
+            <div class="f-left">
+                <ul class="f-menu">
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="form.html">Contact us</a></li>
+                    <li><a href="giftCard.html">Gift Cards</a></li>
+                    <li><a href="maps.html">Locations</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="event.html">Events</a></li>
+                    <li><a href="careers.html">Careers</a></li>
+                    <li><a href="specialMenu.html">Specials</a></li>
+                    <li><a href="contest.html">Contests</a></li>
+                </ul>
+               
+          <div id="social">
+            <a href="http://www.facebook.com"> <img src="img/facebook.png" style="width:40px" alt="" /></a>
+            <a href="http://www.twitter.com"> <img src="img/twitter.png" style="width:40px" alt="" /></a>
+            <a href="#"> <img src="img/rss.png" style="width:40px" alt="" /></a>
+        </div>
+        <div class="copy">Copyright &copy; 2014, <a href="#">Black Knight</a></div>
+            </div>
+        </footer><!--footer ends here-->
+</div><!--end wrapper-->
+</body>
+</html>

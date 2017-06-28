@@ -1,0 +1,93 @@
+<html>
+	<head>
+	    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	    <meta content="IE=5, IE=8, IE=9, IE=10" http-equiv="X-UA-Compatible">
+	    
+        <title>Events / Booking</title>
+		
+        <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel="stylesheet" type="text/css" href="css/event.css" />
+        
+		
+		<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+		<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+		<script src="js/site.js"></script>
+		
+	</head>
+	<body>
+        <nav>
+            <a href="main.html"><img src="img/logoblack.png" alt="logo"/></a>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="form.html">Contact us</a></li>
+                        <li><a href="giftCard.html">Gift Cards</a></li>
+                        <li><a href="maps.html">Locations</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="event.html">Events</a></li>
+                        <li><a href="careers.html">Careers</a></li>
+                        <li><a href="specialMenu.html">Specials</a></li>
+                        <li><a href="contest.html">Contests</a></li>
+                    </ul>
+            </nav>
+        
+            <div id="Reservation" title="Reservation">
+                <label>First Name</label>
+                <input type='text' id='firstName' class="eventInput"><br>
+                <label>Last Name</label>
+                <input type='text' id='lastName' class="eventInput">
+                <label>Email Address</label>
+                <input type='text' id='email' class="eventInput">
+                <label>Phone Number</label>
+                <input type='text' id='phone' class="eventInput">
+                <label>Number of Guests</label>
+                <input type='text' id='numGuest' class="eventInput">
+                <label id="Required"> </label>
+            </div>
+            
+            <div id="content" style="top:50px">
+                <div id="TopDiv">
+                    <table>
+                        <tr>
+                            <td class="rightLeft" onClick="nextPreviousMonth(-1)">Previous</td>
+                            <td id="MonthNameTD" class="monthTD"></td>
+                            <td class="rightLeft" onClick="nextPreviousMonth(1)">Next</td>
+                        </tr>
+                    </table>
+                </div><!--/End TopDiv-->
+                
+                <div id="calendarContnet">
+                    <table id="CalendarTable">
+                        
+                    </table>
+                </div><!--/End calendarContnet-->
+                
+            </div><!--/End content-->
+            
+            <footer>
+            <div class="f-left">
+                <ul class="f-menu">
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="form.html">Contact us</a></li>
+                    <li><a href="giftCard.html">Gift Cards</a></li>
+                    <li><a href="maps.html">Locations</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="event.html">Events</a></li>
+                    <li><a href="careers.html">Careers</a></li>
+                    <li><a href="specialMenu.html">Specials</a></li>
+                    <li><a href="contest.html">Contests</a></li>
+                </ul>
+               
+          <div id="social">
+            <a href="http://www.facebook.com"> <img src="img/facebook.png" style="width:40px" alt="" /></a>
+            <a href="http://www.twitter.com"> <img src="img/twitter.png" style="width:40px" alt="" /></a>
+            <a href="#"> <img src="img/rss.png" style="width:40px" alt="" /></a>
+        </div>
+        <div class="copy">Copyright &copy; 2014, <a href="#">Black Knight</a></div>
+            </div>
+        </footer><!--footer ends here-->
+           
+           
+          
+	</body>
+</html>

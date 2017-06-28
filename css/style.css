@@ -1,0 +1,110 @@
+body{
+	background-color: white;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#FFF;
+}
+
+#content{
+	background: #8c6239; /* Old browsers */
+
+	background: -moz-linear-gradient(top,  #8c6239 0%, #603913 100%); /* FF3.6+ */
+	
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#8c6239), color-stop(100%,#603913)); /* Chrome,Safari4+ */
+	
+	background: -webkit-linear-gradient(top,  #8c6239 0%,#603913 100%); /* Chrome10+,Safari5.1+ */
+	
+	background: -o-linear-gradient(top,  #8c6239 0%,#603913 100%); /* Opera 11.10+ */
+	
+	background: -ms-linear-gradient(top,  #8c6239 0%,#603913 100%); /* IE10+ */
+	
+	background: linear-gradient(to bottom,  #8c6239 0%,#603913 100%); /* W3C */
+	
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8c6239', endColorstr='#603913',GradientType=0 ); /* IE6-9 */
+	border-radius:5px;
+
+
+    height: auto;
+    margin:auto;
+    width: 730px;
+
+}
+
+.rightLeft{
+	cursor: pointer;
+	text-align: center;
+    width: 100px;
+	
+}
+
+.monthTD{
+	text-align: center;
+    width: 530px;
+	color:#f7841a;
+}
+
+.currentCalendarBox{
+	cursor: pointer;
+	
+	background: #f9a85d; /* Old browsers */
+
+	background: -moz-linear-gradient(top,  #f9a85d 0%, #f7851b 100%); /* FF3.6+ */
+	
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f9a85d), color-stop(100%,#f7851b)); /* Chrome,Safari4+ */
+	
+	background: -webkit-linear-gradient(top,  #f9a85d 0%,#f7851b 100%); /* Chrome10+,Safari5.1+ */
+	
+	background: -o-linear-gradient(top,  #f9a85d 0%,#f7851b 100%); /* Opera 11.10+ */
+	
+	background: -ms-linear-gradient(top,  #f9a85d 0%,#f7851b 100%); /* IE10+ */
+	
+	background: linear-gradient(to bottom,  #f9a85d 0%,#f7851b 100%); /* W3C */
+	
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9a85d', endColorstr='#f7851b',GradientType=0 ); /* IE6-9 */
+	border-radius:5px;
+
+	
+    height: 100px;
+    width: 100px;
+}
+
+.calendarBox{
+	background: #64caa1; /* Old browsers */
+
+	background: -moz-linear-gradient(top,  #64caa1 0%, #24b47a 100%); /* FF3.6+ */
+	
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#64caa1), color-stop(100%,#24b47a)); /* Chrome,Safari4+ */
+	
+	background: -webkit-linear-gradient(top,  #64caa1 0%,#24b47a 100%); /* Chrome10+,Safari5.1+ */
+	
+	background: -o-linear-gradient(top,  #64caa1 0%,#24b47a 100%); /* Opera 11.10+ */
+	
+	background: -ms-linear-gradient(top,  #64caa1 0%,#24b47a 100%); /* IE10+ */
+	
+	background: linear-gradient(to bottom,  #64caa1 0%,#24b47a 100%); /* W3C */
+	
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#64caa1', endColorstr='#24b47a',GradientType=0 ); /* IE6-9 */
+
+
+    height: 100px;
+    width: 100px;
+	border-radius:5px;
+}
+
+calendarContnet{
+	color:#362f2d;	
+	
+}
+
+.eventInput{
+	height:35px;
+	
+}
+
+nav img {
+	
+	
+	height: 80px !important;
+}
+nav ul {
+padding: 10px 0% 10px 10%;
+}

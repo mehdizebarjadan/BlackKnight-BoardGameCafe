@@ -1,0 +1,110 @@
+<!--Victoria Tsukanova-->
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="css/form.css">
+<script type="text/javascript" src="js/form.js"></script> 
+<title>Contact Us</title>
+</head>
+
+<body>
+	<div id="wrapper">
+<nav>
+	<a href="main.html"><img src="img/logoblack.png" alt="logo"/></a>
+			<ul>
+				<li><a href="about.html">About Us</a></li>
+				<li><a href="form.html">Contact us</a></li>
+				<li><a href="giftCard.html">Gift Cards</a></li>
+				<li><a href="maps.html">Locations</a></li>
+				<li><a href="menu.html">Menu</a></li>
+				<li><a href="event.html">Events</a></li>
+				<li><a href="careers.html">Careers</a></li>
+				<li><a href="specialMenu.html">Specials</a></li>
+				<li><a href="contest.html">Contests</a></li>
+			</ul>
+		</nav>
+
+<div id="col-left">
+<h1>Contact us</h1>
+<p>Have a question or need some help? Just let us know and we'll get back to you as soon as possible. </p>
+</div><!--end col left-->
+
+<form action="formthanks.html" method="post" id="paymentForm" onsubmit="return processForm()">
+<!--<fieldset>-->
+	<!--LOCATION-->	
+	<p><label id="select" for="location">Select location you want to contact *</label>		
+		<select id="location">
+		  <option value="0">Select</option>
+		  <option name="Headoffice" value="Head Office">Head Office</option>
+		  <option name="Firstlocation" value="First Location">First Location</option>
+		  <option name="Secondlocation" value="Second Location">Second Location</option>
+		</select>
+	</p>	
+
+<!--USER INFORMATION
+	<fieldset>
+		<legend>Your Information</legend>-->
+		
+		<!-- NAME -->
+		<div id="field_1"class="fields">
+		<p><label id="name">Name *</label></br>
+		<input type="text" id="formName" name="formName" /></br><span id="nameErr"></span></p>
+		</div>
+		<!-- EMAIL -->
+		<div id="field_2"class="fields">
+		<p><label id="email">Email Address *</label></br>
+		<input type="text" id="custEmail" name="custEmail" /></br><span id="emailErr"></span></p>
+		</div>
+		
+		<!-- MESSAGE -->
+		<div id="field_3"class="fields">
+		<p><label id="message">Message *</label></br>
+		<input type="text" id="formMessage" name="formMessage" /></br><span id="msgErr"></span></p>
+		</div>
+	<!--</fieldset>-->
+ 
+<!-- SUBMIT -->
+ <div id="btn"><p><input type="submit" value="Submit" name="submit" /></p></div><!--end btn-->
+
+<!--</fieldset>-->
+</form>
+
+
+<!--#### OUTPUT MESSAGE (HIDDEN UNTIL FORM VALIDATES) #### 
+<div id="thanks-main">
+	<h2>Thank you for your purchase!</h2>
+	<div>
+		<p>Thank you <span id="tyName"></span> for joining our mailing list.</p>
+		<p>We have your email as: <span id="tyEmail"></span>.</p>
+		<p>We will be sure to thank <span id="tyMarket"></span> for telling you about us.</p>
+		<p>Regarding your feedback:</p>
+		<blockquote id="tyComment" ></blockquote>
+		<p> We thank you for your thoughts and will respond within 48 hours.</p>
+	</div>
+</div>-->
+<footer>
+            <div class="f-left">
+                <ul class="f-menu">
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="form.html">Contact us</a></li>
+                    <li><a href="giftCard.html">Gift Cards</a></li>
+                    <li><a href="maps.html">Locations</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="event.html">Events</a></li>
+                    <li><a href="careers.html">Careers</a></li>
+                    <li><a href="specialMenu.html">Specials</a></li>
+                    <li><a href="contest.html">Contests</a></li>
+                </ul>
+               
+          <div id="social">
+            <a href="http://www.facebook.com"> <img src="img/facebook.png" style="width:40px" alt="" /></a>
+            <a href="http://www.twitter.com"> <img src="img/twitter.png" style="width:40px" alt="" /></a>
+            <a href="#"> <img src="img/rss.png" style="width:40px" alt="" /></a>
+        </div>
+        <div class="copy">Copyright &copy; 2014, <a href="#">Black Knight</a></div>
+            </div>
+        </footer><!--footer ends here-->
+</div><!--end wrapper-->
+</body>
+</html>

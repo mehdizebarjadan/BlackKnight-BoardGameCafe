@@ -1,0 +1,166 @@
+body {
+	margin: auto 0;
+	background-color: #ffffff;
+	height: auto;
+
+}
+nav {
+	text-align: center;
+	width: 100%;
+	position: fixed;
+	background-color: #ffffff;
+	padding: 0;
+	/*height:68px;*/
+}
+nav ul{
+	/*padding: 10px 10% 10px 10%;*/
+}
+
+nav li {
+	display: inline;
+	font-family: "Avenir";
+	font-weight: lighter;
+	font-size: 1.250em;
+	text-transform: lowercase;
+	padding: 0px 20px 0 20px;
+}
+a {
+	text-decoration: none;
+	color:#871a1a;
+}
+
+nav img {
+	width: 6%;
+	float:left;
+	padding: 1% 5%;
+	height: 5%;
+}
+
+#col-left {
+	float: left;
+	width: 20%;
+	height: 200px;
+	padding: 10% 0% 5% 13%;
+}
+
+#col-left h1 {
+	text-align: left;
+	padding: 5%;
+	font-family: "Charter";
+	font-size: 30px;
+	color: #871a1a;
+	/*text-transform: uppercase;*/
+}
+
+#col-left p{
+	font-family: "Avenir";
+	color: #373534;
+}
+
+form {
+	float: right;
+	width: 56%;
+	height: 500px;
+	padding: 12% 5% 5% 5%;
+	font-family: "Avenir";
+}
+
+
+input {
+	padding: 8px 10px;
+	border: 1px solid #cccccc;
+	width: 80%;
+	height: 20px;
+	background-color: #fbfbfb;
+}
+#formMessage {
+	height: 100px;
+}
+
+#btn input {
+	border: none;
+	font-family: "Avenir";
+	background-color:  #871a1a;
+	color: white;
+	width: 16%;
+	text-transform: uppercase;
+	font-size: 0.8em;
+	height: auto;
+
+}
+
+span {
+	font-size: 1em;
+	color: #bf252f;
+}
+
+/*-----FOOTER--*/
+
+footer {
+	width: 100%;
+	height:180px;
+	padding-top:10px;
+ 	text-align: center;
+	background-color: #431517;
+	clear: both;
+}
+
+.f-left li {
+	display: inline;
+	font-family: "Avenir";
+	font-weight: lighter;
+	font-size: 1em;
+	text-transform: lowercase;
+	padding: 0px 0px 0 20px;
+    color:white;
+}
+
+.f-menu li a {
+color: #f5c7cc;
+text-decoration:none;
+}
+
+.f-menu {
+    list-style: none;
+    margin: 0;
+    padding-top: 1%;
+   
+}
+
+.f-menu li {
+    display:inline;
+    padding: 0 1px 0 15px;
+    position: relative;
+   
+}
+
+.f-menu li:first-child {
+    padding-left: 0;
+}
+f-menu li:first-child:before {
+    display: none;
+}
+
+.f-menu .cur a {
+    color: #fff;
+}
+
+#social {
+	padding-top: 2%;
+	margin: 0 auto;
+}
+.copy {
+	
+    padding-top: 2%;
+    color: #f5c7cc;
+    font-family: "Avenir";
+    font-size: 0.7em;
+    font-weight: lighter;
+    margin: 0 auto;
+
+}
+.copy a{
+	color: #f5c7cc;
+}
+
+/* END Footer */

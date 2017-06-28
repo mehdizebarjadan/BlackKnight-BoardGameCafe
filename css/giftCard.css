@@ -1,0 +1,294 @@
+
+/*GiftCardPage*/
+
+/*Here is body style*/
+body {
+	margin: auto 0;
+	background-color: #ffffff;
+	height: auto;
+
+}
+
+/*Header part*/
+nav {
+	text-align: center;
+	width: 100%;
+	position: fixed;
+	background-color: #ffffff;
+	padding: 0;
+	/*height:68px;*/
+}
+nav ul{
+	/*padding: 10px 10% 10px 10%;*/
+}
+
+nav li {
+	display: inline;
+	font-family: "Avenir";
+	font-weight: lighter;
+	font-size: 1.250em;
+	text-transform: lowercase;
+	padding: 0px 20px 0 20px;
+}
+a {
+	text-decoration: none;
+	color:#871a1a;
+}
+
+nav img {
+	width: 6%;
+	float:left;
+	padding: 1% 5%;
+	height: 5%;
+}
+ /*end of Header part*/
+
+/* GiftCardPage Content*/
+
+.leftVo {
+float:left;
+}
+.rightVo {
+float:left;
+padding-left:100px;
+}
+.middleVo {
+float:left;
+padding-left:100px;
+}
+.buttomVo {
+clear:both;
+}
+
+#masterImg, #visaImg {
+padding-left:40px; float:left;
+}
+#masterID, #visaID {
+padding-left:0px; float:left;
+
+
+}
+
+.clearboth {
+clear:both;
+}
+
+
+input, textarea, select {
+    padding: 9px;
+    border: solid 1px #808080;
+    outline: 0;
+    font: normal 13px/100% Verdana, Tahoma, sans-serif;
+    width: 200px;
+    background: #FFFFFF;
+    }
+   
+textarea {
+    width: 400px;
+    max-width: 400px;
+    height: 150px;
+    line-height: 150%;
+    }
+   
+input:hover, textarea:hover,
+input:focus, textarea:focus, select:hover {
+    outline: none;
+    box-shadow: 0px 0px 5px #dbabab;
+    border-color: #808080;
+    }
+   
+.form label {
+    margin-left: 10px;
+    color: #999999;
+    }
+   
+.submit input {
+    width: auto;
+    padding: 9px 15px;
+    background: #617798;
+    border: 0;
+    font-size: 14px;
+    color: #FFFFFF;
+    }
+
+
+#masterImg, #visaImg {
+width:100px;
+height:63px;
+}
+
+.input-block > input,
+.input-block textarea,
+.input-block select {
+    border: 1px solid #bbb;
+    height: 30px;
+    font-size: 16px;
+    line-height: 30px;
+    padding: 0 10px;
+    width: 100%;
+}
+
+.input-block textarea {
+    line-height: normal;
+    height: 100px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.input-block {
+    margin-bottom: 10px;
+}
+
+.input-block label {
+    padding-bottom: 3px;
+}
+
+.input-block select {
+    width: auto;
+}
+.radio-block input {
+    float: left;
+    margin: 3px 5px 0 0;
+}
+.input-block .Choose-file {
+    border:  none;
+    padding: 0;
+}
+
+#btn1 input,#btn2 input{
+	border: none;
+	font-family: "Avenir";
+	background-color:  #871a1a;
+	color: white;
+	width: 100px;
+	text-transform: uppercase;
+	font-size: 0.8em;
+	height: auto;
+
+}
+
+
+#col-left {
+	float: left;
+	width: 20%;
+	height: 200px;
+	padding: 10% 0% 5% 13%;
+}
+
+#col-left h1 {
+	text-align: left;
+	padding: 5%;
+	font-family: "Charter";
+	font-size: 30px;
+	color: #871a1a;
+	/*text-transform: uppercase;*/
+}
+
+#col-left p{
+	font-family: "Avenir";
+	color: #373534;
+}
+
+#giftForm {
+	float: right;
+    height:650px;
+	width: 56%;
+	padding: 12% 5% 5% 5%;
+	font-family: "Avenir";
+    
+}
+
+#payForm {
+	float: right;
+    height:400px;
+	width: 56%;
+	padding: 12% 5% 5% 5%;
+	font-family: "Avenir";
+    
+}
+
+#EndForm {
+	float: right;
+    height:200px;
+	width: 56%;
+	padding: 17% 5% 10% 5%;
+	font-family: "Avenir";
+    
+}
+
+
+
+/*End Of GiftCardPage content*/
+
+/*footer--*/
+
+/*-----FOOTER--*/
+
+footer {
+    width: 100%;
+    height:180px;
+    padding-top:10px;
+    text-align: center;
+    background-color: #431517;
+    clear: both;
+}
+
+.f-left li {
+    display: inline;
+    font-family: "Avenir";
+    font-weight: lighter;
+    font-size: 1em;
+    text-transform: lowercase;
+    padding: 0px 0px 0 20px;
+    color:white;
+}
+
+.f-menu li a {
+color: #f5c7cc;
+text-decoration:none;
+}
+
+.f-menu {
+    list-style: none;
+    margin: 0;
+    padding-top: 1%;
+   
+}
+
+.f-menu li {
+    display:inline;
+    padding: 0 1px 0 15px;
+    position: relative;
+   
+}
+
+.f-menu li:first-child {
+    padding-left: 0;
+}
+f-menu li:first-child:before {
+    display: none;
+}
+
+.f-menu .cur a {
+    color: #fff;
+}
+
+#social {
+    padding-top: 2%;
+    margin: 0 auto;
+}
+.copy {
+    
+    padding-top: 2%;
+    color: #f5c7cc;
+    font-family: "Avenir";
+    font-size: 0.7em;
+    font-weight: lighter;
+    margin: 0 auto;
+
+}
+.copy a{
+    color: #f5c7cc;
+}
+
+/* END Footer */

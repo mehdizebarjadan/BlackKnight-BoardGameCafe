@@ -1,0 +1,32 @@
+#container{
+	width: 1200px;
+	margin: 50px auto;
+	padding-top: 20px;
+	background: #ffffff;
+	
+}
+
+#topPic{
+	width:600px; 
+	margin: 0 auto;
+	/*border-radius:5px;*/
+	
+}
+/*#topPic img{
+	
+	border-radius:35px;
+	
+}*/
+
+#gallery{
+	padding: 10px;
+	background: #ffffff;
+	
+
+}
+#gallery img{
+	margin-left: 40px;
+	margin-bottom: 10px;
+	/*border-radius:5px;*/
+}
+
